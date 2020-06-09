@@ -74,7 +74,4 @@ bindkey '^e' edit-command-line
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 #source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 source /usr/share/autojump/autojump.zsh 2>/dev/null
-#source /root/.zsh/zsh-theme-gruvbox-material-dark
-#source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.zsh/fsh/fast-syntax-highlighting.plugin.zsh 2>/dev/null
-source ~/.vim/plugged/gruvbox/gruvbox_256palette.sh 2>/dev/null
