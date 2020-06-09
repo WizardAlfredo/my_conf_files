@@ -1,4 +1,4 @@
-////////////////////////////////////For Vim////////////////////////////////////
+## Configuring Vim
 
 Create the file:
 ```
@@ -24,7 +24,7 @@ vim ~/.tmux.conf
 
 Copy Paste the contents of the file `WizardAlfredo/my_conf_files/.tmux.conf`
 
-////////////////////////////////////For Zsh////////////////////////////////////
+## Configuring ZSH 
 
 Download zsh goods 
 ```
@@ -40,7 +40,7 @@ Create the file:
 ```
 Copy Paste the contents of the file `WizardAlfredo/my_conf_files/.zshrc`
 
-////////////////////////////////////Terminal gruvbox theme////////////////////////////////////
+## Terminal gruvbox theme
 
 Add the gruvbox-dark theme to xfce4 shell:
 ```
@@ -74,7 +74,7 @@ TabActivityColor=#bf4040
 To make the changes:
 `go to the preferences -> colors -> custom `
 
-////////////////////////////////////Xfce configuration////////////////////////////////////
+## Xfce configuration
 
 Make xfce4 the default terminal:
 `Settings -> Settings Manager -> Preferred Applications -> Utilities -> Xfce Terminal`
