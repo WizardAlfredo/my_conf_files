@@ -1,29 +1,3 @@
-## Configuring Vim
-
-Create the file:
-```
-vim ~/.vimrc
-```
-
-Copy Paste the contents of the file `WizardAlfredo/my_conf_files/.vimrc`
-
-Download vim-plug from https://github.com/junegunn/vim-plug
-
-To install the plugins:
-```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
-## For tmux
-
-Create the file:
-```
-vim ~/.tmux.conf
-```
-
-Copy Paste the contents of the file `WizardAlfredo/my_conf_files/.tmux.conf`
-
 ## Configuring ZSH 
 
 Download zsh goods 
@@ -38,7 +12,59 @@ Create the file:
 ```
   vim .zshrc
 ```
-Copy Paste the contents of the file `WizardAlfredo/my_conf_files/.zshrc`
+Copy Paste the contents of the file 
+```
+WizardAlfredo/my_conf_files/.zshrc
+```
+
+## Configuring Vim
+
+Download vim-plug from https://github.com/junegunn/vim-plug
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+Create the file:
+```
+vim ~/.vimrc
+```
+
+Copy Paste the contents of the file 
+```
+WizardAlfredo/my_conf_files/.vimrc
+```
+
+To install the plugins:
+```
+:PlugInstall
+```
+
+## Configuring tmux
+
+Create the file:
+```
+vim ~/.tmux.conf
+```
+
+Copy Paste the contents of:
+```
+https://raw.githubusercontent.com/WizardAlfredo/my_conf_files/master/.tmux.conf
+```
+
+## Xfce configuration
+
+Make xfce4 the default terminal:
+`Settings -> Settings Manager -> Preferred Applications -> Utilities -> Xfce Terminal`
+
+Make xfce4 open maximized by default:
+```
+cd /usr/share/applications/ && vim xfce4-terminal.desktop
+Exec=xfce4-terminal --maximize
+
+cd /usr/share/xfce4/helpers/ && vim xfce4-terminal.desktop
+X-XFCE-Commands=%B --maximize;
+```
 
 ## Terminal gruvbox theme
 
@@ -74,17 +100,5 @@ TabActivityColor=#bf4040
 To make the changes:
 `go to the preferences -> colors -> custom `
 
-## Xfce configuration
 
-Make xfce4 the default terminal:
-`Settings -> Settings Manager -> Preferred Applications -> Utilities -> Xfce Terminal`
-
-Make xfce4 open maximized by default:
-```
-cd /usr/share/applications/ && vim xfce4-terminal.desktop
-Exec=xfce4-terminal --maximize
-
-cd /usr/share/xfce4/helpers/ && vim xfce4-terminal.desktop
-X-XFCE-Commands=%B --maximize;
-```
  
