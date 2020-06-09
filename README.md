@@ -13,13 +13,12 @@ Create the file:
   vim .zshrc
 ```
 Copy Paste the contents of the file 
-```
-WizardAlfredo/my_conf_files/.zshrc
-```
+
+https://raw.githubusercontent.com/WizardAlfredo/my_conf_files/master/.zshrc
 
 ## Configuring Vim
 
-Download vim-plug from https://github.com/junegunn/vim-plug
+Download vim-plug from https://github.com/junegunn/vim-plug with:
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -31,9 +30,8 @@ vim ~/.vimrc
 ```
 
 Copy Paste the contents of the file 
-```
-WizardAlfredo/my_conf_files/.vimrc
-```
+
+https://raw.githubusercontent.com/WizardAlfredo/my_conf_files/master/.vimrc
 
 To install the plugins:
 ```
@@ -48,9 +46,9 @@ vim ~/.tmux.conf
 ```
 
 Copy Paste the contents of:
-```
+
 https://raw.githubusercontent.com/WizardAlfredo/my_conf_files/master/.tmux.conf
-```
+
 
 ## Xfce configuration
 
@@ -72,15 +70,9 @@ Add the gruvbox-dark theme to xfce4 shell:
 ```
 cd /usr/share/xfce4/terminal/colorschemes && vim gruvbox-dark.theme 
 ```
-Copy Paste the following:
-```
-[Scheme]
-Name=gruvbox dark
-ColorForeground=#ebdbb2
-ColorBackground=#282828
-ColorPalette=#282828;#cc241d;#98971a;#d79921;#458588;#b16286;#689d6a;#a89984;#928374;#fb4934;#b8bb26;#fabd2f;#83a598;#d3869b;#8ec07c;#ebdbb2
-TabActivityColor=#bf4040
-```
+Copy Paste the index of:
+
+https://raw.githubusercontent.com/morhetz/gruvbox-contrib/master/xfce4-terminal/gruvbox-dark.theme
 
 Or add my custom gruvbox based color theme:
 ```
@@ -97,8 +89,8 @@ ColorPalette=#282828;#cc241d;#98971a;#d79921;#458588;#b16286;#689d6a;#a89984;#92
 TabActivityColor=#bf4040
 ```
 
-To make the changes:
-`go to the preferences -> colors -> custom `
+To make the changes in the terminal:
+`Preferences -> Colours -> Presents -> <choose a colorsheme> `
 
 
  
