@@ -16,6 +16,15 @@ Copy Paste the contents of:
 
 https://raw.githubusercontent.com/WizardAlfredo/my_conf_files/master/.zshrc
 
+Create the aliasrc:
+```
+  vim ~/.zsh/aliasrc
+```
+Copy Paste the contents of: 
+
+https://raw.githubusercontent.com/WizardAlfredo/my_conf_files/master/aliasrc
+
+
 ## Configuring Vim
 
 Download vim-plug from https://github.com/junegunn/vim-plug with:
