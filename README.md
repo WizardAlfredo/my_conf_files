@@ -12,7 +12,7 @@ Create the file:
 ```
   vim .zshrc
 ```
-Copy Paste the contents of the file 
+Copy Paste the contents of: 
 
 https://raw.githubusercontent.com/WizardAlfredo/my_conf_files/master/.zshrc
 
@@ -29,7 +29,7 @@ Create the file:
 vim ~/.vimrc
 ```
 
-Copy Paste the contents of the file 
+Copy Paste the contents: 
 
 https://raw.githubusercontent.com/WizardAlfredo/my_conf_files/master/.vimrc
 
