@@ -81,10 +81,10 @@ Make xfce4 the default terminal:
 
 Make xfce4 open maximized by default:
 ```
-cd /usr/share/applications/
-(in xfce4-terminal.desktop) Exec=xfce4-terminal --maximize
+cd /usr/share/applications/ && vim xfce4-terminal.desktop
+Exec=xfce4-terminal --maximize
 
-cd /usr/share/xfce4/helpers/
-(in xfce4-terminal.desktop) X-XFCE-Commands=%B --maximize;
+cd /usr/share/xfce4/helpers/ && vim xfce4-terminal.desktop
+X-XFCE-Commands=%B --maximize;
 ```
  
